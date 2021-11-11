@@ -1,0 +1,95 @@
+.mailPage {
+  width: 85%;
+  padding: 5px;
+}
+.horizontalLine {
+  border-bottom: 1px solid rgba(128, 128, 128, 0.425);
+}
+.titleSection {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  padding: 15px;
+}
+.titleSection > p {
+  font-size: 26px;
+  font-weight: 450;
+  padding: 5px 00px 5px 30px;
+}
+.indexPart {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: whitesmoke;
+  padding: 3px;
+  width: 50px;
+  margin-left: 8px;
+  border-radius: 7px;
+}
+.indexPart > p {
+  color: grey;
+  font-size: 12px;
+}
+.userDetails {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5px;
+}
+.leftOfTop {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+}
+.sender {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.sender > h4 {
+  margin-left: 8px;
+  font-size: 16px;
+}
+.sender > p {
+  color: grey;
+  font-size: 14px;
+  font-weight: 400;
+}
+.rightOfTop {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+}
+.rightOfTop > p {
+  color: grey;
+  font-size: 12px;
+  font-weight: 400;
+}
+.messageArea {
+  margin-left: 50px;
+}
+.message {
+  padding-right: 250px;
+}
+.messageArea > p {
+  font-size: 14px;
+  line-height: 50px;
+}
+.btnSection {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  margin-top: 15px;
+}
+.btnContainer {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  font-weight: 500;
+  color: grey;
+  margin-right: 12px;
+  border: 1px solid rgba(128, 128, 128, 0.445);
+  padding: 5px 10px 5px 10px;
+  border-radius: 5px;
+  width: fit-content;
+}

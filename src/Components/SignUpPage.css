@@ -1,0 +1,49 @@
+.signInPage {
+  display: flex;
+  align-items: center;
+  /* flex-wrap: wrap; */
+  justify-content: center;
+  width: 100%;
+  padding: 50px;
+}
+
+.signleft {
+  margin-top: 155px;
+  padding: 20px;
+  width: 50%;
+}
+.signleft > h1 {
+  font-size: 55px;
+  align-items: center;
+  text-align: start;
+}
+
+.signleft > h3 {
+  font-size: 30px;
+  font-weight: 500;
+  font-family: Arial, Helvetica, sans-serif;
+  align-items: center;
+}
+.signleft > Button {
+  width: 330px;
+  height: 50px;
+  align-self: flex-start;
+  font-family: Helvetica, sans-serif;
+  font-size: 18px;
+}
+.signright {
+  width: 50%;
+}
+.signright > img {
+  max-width: 80%;
+}
+@media screen and (max-width: 800px) {
+  .signInPage {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap-reverse;
+    justify-content: center;
+    width: 100%;
+    padding: 10px;
+  }
+}

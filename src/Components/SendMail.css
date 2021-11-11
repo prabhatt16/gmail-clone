@@ -1,0 +1,76 @@
+.sendMail {
+  position: absolute;
+  bottom: 0;
+  right: 54px;
+  width: 40%;
+  border-radius: 12px 12px 0px 0px;
+  background-color: white;
+  box-shadow: 1px 20px 8px 8px #8888886e;
+  height: 500px !important;
+}
+.sendMail_header {
+  border-radius: 12px 12px 0px 0px;
+  background-color: darkslategrey;
+  color: white;
+  font-size: 18px;
+  display: flex;
+  padding: 11px;
+  align-items: center;
+  font-weight: 700;
+  justify-content: space-between;
+}
+.sendMail_header > p {
+  font-size: 16px;
+}
+.toMail {
+  padding: 8px;
+  border-bottom: 1px solid rgba(128, 128, 128, 0.247);
+}
+
+.toMail > input {
+  border: none;
+  outline: none;
+}
+
+.subjectMail {
+  padding: 8px;
+  border-bottom: 1px solid rgba(128, 128, 128, 0.247);
+}
+
+.subjectMail > input {
+  border: none;
+  outline: none;
+}
+
+.sendMail > input {
+  border: none;
+  outline: none;
+}
+.sendmail_error{
+    color: red;
+    text-align: right;
+    padding: 5px;
+    font-size: 16px;
+}
+.messageInput {
+  padding: 8px;
+  border: none;
+  outline: none;
+  max-lines: 8;
+  width: 95%;
+}
+.send_btn {
+  color: white;
+  background-color: #1a73e8;
+  padding: 7px 18px 7px 18px;
+  font-size: 14px;
+  border-radius: 4px;
+  bottom: 10px;
+  position: absolute;
+  font-weight: 600;
+  width: fit-content;
+  left: 20px;
+}
+.send_btn:hover {
+  opacity: 0.9;
+}

@@ -1,0 +1,38 @@
+.topHeader {
+  width: 100%;
+  flex: 1;
+}
+.mailList {
+  display: flex;
+  top: 0;
+  z-index: 999;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  padding: 5px;
+  margin-top: 2px;
+}
+.left_area {
+  display: flex;
+  align-items: center;
+}
+.topIcons {
+  color: rgb(116, 116, 116);
+  width: 20px;
+  height: 20px;
+  margin-right: 12px;
+  padding: 2px;
+}
+.topIcons:hover {
+  background-color: rgba(199, 205, 211, 0.438);
+  border-radius: 5px;
+}
+.section_items {
+  position: sticky;
+  top: 0;
+  display: flex;
+  width: 60%;
+  border-bottom: 1px solid whitesmoke;
+  background-color: white;
+  z-index: 999;
+}
